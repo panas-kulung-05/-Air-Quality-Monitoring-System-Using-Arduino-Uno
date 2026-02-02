@@ -29,7 +29,8 @@ The MQ-135 sensor detects harmful gases and provides an analog output proportion
 
 Arduino Uno reads the sensor data, processes the values, and displays air quality level, temperature, and humidity on the OLED display via I2C communication, enabling real-time monitoring without the need for a computer.
 
-🧠 Pin Configuration
+🧠 **Pin Configuration**
+<br>
 | Component            | Arduino Pin            |
 | -------------------- | ---------------------- |
 | MQ-135 Analog Output | A0                     |
@@ -39,70 +40,50 @@ Arduino Uno reads the sensor data, processes the values, and displays air qualit
 | VCC                  | 5V                     |
 | GND                  | GND                    |
 
-💻 Software Requirements
+💻 **Software Requirements**
 
-Arduino IDE
+• Arduino IDE<br>
+• DHT Sensor Library<br>
+• Adafruit SSD1306 Library<br>
+• Adafruit GFX Library<br>
 
-DHT Sensor Library
+🧾 **Code Overview**
 
-Adafruit SSD1306 Library
+• Initializes MQ-135, DHT sensor, and OLED display<br>
+• Reads air quality, temperature, and humidity values<br>
+• Processes sensor data<br>
+• Displays real-time values on OLED display<br>
+• Optional serial monitor output for debugging<br>
 
-Adafruit GFX Library
+📊 **Output**
 
-🧾 Code Overview
+• Air Quality Level (Analog value / PPM approximation)<br>
+• Temperature (°C)<br>
+• Humidity (%)<br>
+• Displayed in real time on OLED screen<br>
 
-Initializes MQ-135, DHT sensor, and OLED display
+🚀 **Applications**
 
-Reads air quality, temperature, and humidity values
+• Indoor air quality monitoring<br>
+• Environmental monitoring systems<br>
+• Smart home applications<br>
+• Academic mini projects<br>
+• IoT system prototypes<br>
 
-Processes sensor data
+📚 **Learning Outcomes**
 
-Displays real-time values on OLED display
+• Interfacing analog and digital sensors with Arduino<br>
+• Understanding I²C communication protocol<br>
+• Real-time data visualization using OLED display<br>
+• Embedded system programming fundamentals<br>
 
-Optional serial monitor output for debugging
+🔮 **Future Enhancements**
 
-📊 Output
+• Integrate IoT platforms (ESP8266 / ESP32)<br>
+• Add mobile or web dashboard<br>
+• Implement air quality alert system<br>
+• Data logging and cloud storage<br>
 
-Air Quality Level (Analog value / PPM approximation)
-
-Temperature (°C)
-
-Humidity (%)
-
-Displayed in real time on OLED screen
-
-🚀 Applications
-
-Indoor air quality monitoring
-
-Environmental monitoring systems
-
-Smart home applications
-
-Academic mini projects
-
-IoT system prototypes
-
-📚 Learning Outcomes
-
-Interfacing analog and digital sensors with Arduino
-
-Understanding I²C communication protocol
-
-Real-time data visualization using OLED display
-
-Embedded system programming fundamentals
-
-🔮 Future Enhancements
-
-Integrate IoT platforms (ESP8266 / ESP32)
-
-Add mobile or web dashboard
-
-Implement air quality alert system
-
-Data logging and cloud storage
-
-📜 License
+📜 **License**
 
 This project is open-source and intended for educational use.
