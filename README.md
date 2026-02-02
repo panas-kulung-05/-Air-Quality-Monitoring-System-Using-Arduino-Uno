@@ -1,4 +1,4 @@
-🌱 **Air Quality Monitoring System Using Arduino Uno
+🌱 **Air Quality Monitoring System Using Arduino Uno<br>
 📌 Project Description**
 
 This project presents an Air Quality Monitoring System using Arduino Uno that measures air quality, temperature, and humidity in real time. The system uses an MQ-135 gas sensor to monitor air pollution levels, a DHT sensor to measure ambient temperature and humidity, and an OLED display with I2C interface to visually display the measured parameters.
