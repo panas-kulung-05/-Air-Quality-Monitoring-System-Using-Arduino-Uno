@@ -1,29 +1,29 @@
-🌱 Air Quality Monitoring System Using Arduino Uno
-📌 Project Description
+🌱 **Air Quality Monitoring System Using Arduino Uno
+📌 Project Description**
 
 This project presents an Air Quality Monitoring System using Arduino Uno that measures air quality, temperature, and humidity in real time. The system uses an MQ-135 gas sensor to monitor air pollution levels, a DHT sensor to measure ambient temperature and humidity, and an OLED display with I2C interface to visually display the measured parameters.
 
 The project is designed as a beginner-friendly embedded systems and environmental monitoring application, suitable for academic mini projects, Arduino learners, and basic IoT system foundations.
 
-🎯 Project Objectives
+🎯 **Project Objectives**
 
-• To monitor air quality using the MQ-135 gas sensor
-• To measure temperature and humidity using the DHT sensor
-• To display real-time sensor data on an OLED display using I²C communication
-• To understand sensor interfacing and I²C protocol
-• To develop a basic environmental monitoring system using Arduino
+• To monitor air quality using the MQ-135 gas sensor<br>
+• To measure temperature and humidity using the DHT sensor<br>
+• To display real-time sensor data on an OLED display using I²C communication<br>
+• To understand sensor interfacing and I²C protocol<br>
+• To develop a basic environmental monitoring system using Arduino<br>
 
-🧰 Components Required
+🧰 **Components Required**
 
-• Arduino Uno
-• MQ-135 Air Quality Sensor
-• DHT11 / DHT22 Temperature & Humidity Sensor
-• OLED Display (SSD1306) with I2C Module
-• Breadboard
-• Jumper Wires
-• USB Cable
+• Arduino Uno<br>
+• MQ-135 Air Quality Sensor<br>
+• DHT11 / DHT22 Temperature & Humidity Sensor<br>
+• OLED Display (SSD1306) with I2C Module<br>
+• Breadboard<br>
+• Jumper Wires<br>
+• USB Cable<br>
 
-⚙️ Working Principle
+⚙️ **Working Principle**
 
 The MQ-135 sensor detects harmful gases and provides an analog output proportional to air pollution concentration. The DHT sensor measures temperature and humidity using a digital signal.
 
